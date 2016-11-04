@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import time
-from datetime import timedelta
+
 
 now_ticks=time.time()
 
