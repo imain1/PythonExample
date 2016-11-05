@@ -8,8 +8,9 @@
 """
 
 from __future__ import print_function
-from pydevd import line
-    
+#from pydevd import line
+
+   
 def printme(str):
     "This print a passed string into this function"
     print(str);
@@ -58,11 +59,12 @@ def print_identify(name="Noname",age="9999"):
 def print_information(*vartuple):
     
     "This prints a variable passed arguments"
-    print ("-------------------------------------------\n")
+    print ("-------------------------------------------")
     for var in vartuple:
         print (var+",",end='')
-    print ("\n")
+    print ("")
     return
+sum = lambda arg1,arg2: arg1+arg2
  
 def function_test():
     print_identify(age=10, name="Chang")
@@ -70,10 +72,17 @@ def function_test():
     print_information("Chang","42","Senior Software Engineer","Austin")
     print_information("Christoper","43")
     
+    c=sum(10,20)
+    print ("lambda function c=%d"%(c))
+    
+ 
+    
 def main():
     list_test(1)
     list_test(2)
     function_test()
+    
+    
     
 if __name__=='__main__':
     main()
