@@ -23,7 +23,9 @@ def printme(str):
 
 def changeme(mylist):
     print ("mylist.append([1,2,3,4])")
-    mylist.append([1,2,3,4]);
+    mylist.append([1,2,3,4])
+    mylist[2]=20
+    
     print ("values inside this function:", mylist)
     return
 
