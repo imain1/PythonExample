@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 dict1={'name':'Zaa','Age':7}
 dict2={'name':'Zaanaz','Age':7}
 dict3={'name':'Abid','Age':27}
@@ -26,3 +25,4 @@ print "dict1 items are %s"%dict1.items()
 
 print "Value:%s" %dict1.setdefault('Age',None)
 print "Value:%s" %dict1.setdefault('Sex',None)
+
